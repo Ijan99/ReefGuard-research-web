@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+.category {
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.tech-section-tools{
+    color: black;
+    font-family: Arial, sans-serif;
+}
+  
+.reefguard-blog-container {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+}
+  
+tech-topic-name {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+  
+.tech-blog-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 20px;
+}
+  
+.tech-blog-card {
+    background-color: #232a4a;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+  
+.tech-blog-card img {
+    max-width: 50px;
+    margin-bottom: 10px;
+}
+  
+.tech-blog-card p {
+    font-size: 16px;
+}
+  
+.tech-blog-card:hover {
+    transform: scale(1.05);
+}
+  
