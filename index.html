@@ -191,9 +191,13 @@
                 <div id="project-scope-left" class="col-md-6 col-sm-12 pt-lg-5 justify-text">
                  <h5><strong>Proposed Problem</strong></h5>
 				 
-					<h4 class="highlight">How to classify pest and diseases in coconut and provide surveillance to people in real time?</h4>
+					<h4 class="highlight">How to detect and assess marine pollution to protect coral ecosystems and biodiversity?</h4>
 					<p></p>
-					<p style="text-align: justify;">Weligama Coconut Leaf Wilt Disease (WCLWD) and Coconut Caterpillar Infestation (CCI) are the most threatening disease and pest of coconut in Sri Lanka. Due to WCLWD about 300,000 palms were removed and an estimated 60,000 palms needed to be identified for removal. An economical yield loss will result if more than 30% defoliation is caused due to CCI. For efficient management of WCLWD and CCI, identification at an early stage and effective communication of growers and professionals is needed.</p>
+					<p style="text-align: justify;">
+            Marine ecosystems are increasingly threatened by pollution, which disrupts coral life and endangers marine biodiversity. 
+            These pollutants, including chemicals and waste, accumulate in seawater, leading to habitat degradation and a decrease in 
+            marine life expectancy. Coral reefs, essential to marine life and coastal protection, are particularly vulnerable, facing 
+            threats of disease and extinction as pollution levels rise.</p>
 				
 				</div>
 
@@ -210,7 +214,13 @@
 			     <div>
 				 <h5><strong>Proposed Solution</strong></h5>
 				 
-				 <p style="text-align: justify;"> Coco Remedy uses mobile and web-based software to manage Weligama Coconut Leaf Wilt Disease (WCLWD) and Coconut Caterpillar Infestation (CCI), which devastate coconut cultivation. In WCLWD, yellowing of leaves which also associates with Magnesium deficiency makes it difficult to distinguish the diseased palms accurately. Similarly, the dried appearance of leaves due to CCI is difficult to distinguish from leaf scorching. Therefore, Deep Learning techniques like Convolutional Neural Networks (CNN) for feature extraction will be used to identify the diseases accurately. Coconut growers, Estate managers of plantation companies, Researches of Coconut Research Institute (CRISL), Coconut Development Officers (CDOs) of Coconut Cultivation Board (CCB), and the general public will be able to identify diseased palm accurately by capturing a photograph of leaf with symptoms. The location will be extracted by Geo Tags in order to gather anonymous data using OpenWeatherMapAPI for future predictions. The severity of WCLWD is calculated based on the multiple symptoms using CNN. Since caterpillars&rsquo; associates with the damaged leaves in CCI, counts of caterpillars are taken using OpenCV / YOLO object detection while the infected area is calculated using MASK R-CNN. Using the above-mentioned parameters progression level is determined. Real-time notifications are sent whenever an infected tree is found. Details of the infected trees, location and severity records enable the researches and CDOs to take remedial actions. Infected areas and danger zones which might be affected in the future can visualized through Google mapping technologies. Nearby users are notified to take precautions before their lands get affected.	</p>
+				 <p style="text-align: justify;"> 
+          Reefguard is an early warning system designed to protect coral ecosystems and marine biodiversity by leveraging
+          advanced machine learning and computer vision techniques. It utilizes a Vision Transformer model to detect coral diseases, 
+          YOLO-V8 for identifying coral species, and a Random Forest model for assessing seawater pollution levels. Additionally, 
+          Reefguard combines Support Vector Machine (SVM) and Random Forest models to predict coral life expectancy. This integrated system 
+          generates real-time alerts for conservationists and stakeholders, providing actionable insights on pollution, disease, and coral health. 
+          With geolocation and mapping features, Reefguard enables timely interventions, supporting proactive marine conservation efforts.</p>
                 </div>
           </div>
             <!-- Research Objectives -->
@@ -223,8 +233,11 @@
               <div class="circle font-weight-bold"><i class="fa fa-star"></i></div>
             </div>
             <div class="col-6">
-              <h4>Classification of Weligama Coconut Leaf Wilt Disease</h4>
-              <p style="text-align: justify;">The first objective is to classify Weligama Coconut Leaf Wilt Disease (WCLWD) to provide a solution for distinguishing WCLWD uneven yellowing from other diseases. In addition, the symptom severity of WCLWD was determined using a Convolutional Neural Network to identify the disease's symptom&nbsp;severity level to inform the Coconut Research Institute of Sri Lanka (CRISL) to proceed with the necessary precautions to reduce the dispersion rate.</p>
+              <h5>Seawater Pollution Identification</h5>
+              <p style="text-align: justify;">
+                The first objective is to develop a reliable method for identifying seawater pollution levels in coastal areas. 
+                This includes analyzing specific pollution indicators and using a Random Forest model to assess water quality. 
+                By providing accurate and real-time data on pollution levels, the system will support early intervention to prevent further harm to marine ecosystems.</p>
             </div>
           </div>
           <!-- Path Line -->
@@ -242,8 +255,11 @@
           <!-- Second Content Section-->
           <div class="row align-items-center justify-content-end connecting-lines d-flex">
             <div class="col-6 text-right">
-              <h4>Classification of Coconut Caterpillar Infestation</h4>
-              <p style="text-align: justify;">The second objective of this study is to develop a solution to identify the coconut caterpillar infestation (CCI) while differentiating its symptoms from other conditions. The severity of the infestation will also be determined at the same time, and appropriate authorities will be notified in order to expedite the application of control measures to prevent possible outbreak of the pest.</p>
+              <h5>Coral Species Identification</h5>
+              <p style="text-align: justify;">
+                The second objective is to create an automated system for identifying multiple coral species within complex reef structures. 
+                Using the YOLO-V8 model, the system will classify various coral species in high-density formations, 
+                facilitating better understanding and preservation of biodiversity in coral reefs.</p>
             </div>
             <div class="col-2 text-center full d-inline-flex justify-content-center align-items-center">
               <div class="circle font-weight-bold"><i class="fa fa-star"></i></div>
@@ -267,10 +283,11 @@
               <div class="circle font-weight-bold"><i class="fa fa-star"></i></div>
             </div>
             <div class="col-6">
-              <h4>Differentiating Magnesium Deficiency, Coconut Leaf Scorching, and Identify Water Resources</h4>
+              <h5>Coral Disease Identification</h5>
               <p style="text-align: justify;">
-                The third objective is identifying the pattern of yellowing associated with Mg deficiency, identifying LSD on coconut leaves,
-                and check whether there is a water resource within 100m from the farmers' to facilitate constant monitoring to prevent caterpillar outbreaks.
+                The third objective is to enhance the early detection of coral diseases through image analysis using a Vision Transformer model. 
+                This model will accurately identify symptoms of coral diseases, helping conservationists to monitor and address disease outbreaks quickly, 
+                thus promoting coral health and resilience.
               </p>
             </div>
           </div>
@@ -290,8 +307,11 @@
           <!-- Second Content Section-->
           <div class="row align-items-center justify-content-end connecting-lines d-flex">
             <div class="col-6 text-right">
-              <h4>Crowdsourcing for information sharing</h4>
-              <p style="text-align: justify;">The fourth objective is to provide a convenient approach to the farmers and industry professionals to utilize the optimal use of the platform by visualizing the disease dispersions and notifying the stakeholders regarding the dispersions with their severity levels.</p>
+              <h5>Marine Life Expectancy and Extinction Level Prediction</h5>
+              <p style="text-align: justify;">
+                The fourth objective is to predict the life expectancy and extinction risk levels of marine species, 
+                with a specific focus on corals. By combining Support Vector Machine (SVM) and Random Forest models, the system will provide a 
+                comprehensive prediction of coral life expectancy, allowing stakeholders to prioritize conservation efforts for species at risk.</p>
             </div>
             <div class="col-2 text-center full d-inline-flex justify-content-center align-items-center">
               <div class="circle font-weight-bold"><i class="fa fa-star"></i></div>
@@ -318,22 +338,34 @@
                 <div id="project-scope-left" class="col-md-6 col-sm-12 pt-lg-5">
                   <div class="section-left">
                     <div class="section-figure">
-                      <img src="images/other-architecture.jpg" width="100%">
+                      <img src="images/overall-architecture.png" width="100%">
                       <p>Figure 2. High Level Architecture of the system.</p>
                     </div>
                   </div>
                 </div>
                 <div id="project-scope-right" class="col-md-6 col-sm-12 pt-lg-5 justify-text">
-                  <p>The proposed pest and disease Surveillance system consists of 4 main components. They are;</p>
+                  <p>The proposed Early Warning System consists of 4 main components. They are;</p>
                   <ol>
-                    <li><strong>WCLWD and its symptom severity identification</strong></li>
-                    <li><strong>CCI Identification and progression level determination</strong></li>
-                    <li><strong>Deficiency Identification (Mg deficiency and Leaf Scorch Decline)</strong></li>
-					<li><strong>Water resource identification</strong></li>
-                    <li><strong>Crowdsourcing for information sharing.</strong></li>
+                    <li><strong>Seawater Pollution Identification</strong></li>
+                    <li><strong>Coral Species Identification</strong></li>
+                    <li><strong>Coral Disease Identification</strong></li>
+					          <li><strong>Marine Life Expectancy and Extinction Level Prediction</strong></li>
                   </ol>
-				  <p> Fig 4 illustrates the overall system diagram of the proposed solution which was intended to provide a smart approach for stakeholders, researchers, and Coconut Development Officers (CDOs) to detect the coconut diseases and pest infestations that may affect the coconut industry. As shown in the diagram, the registered users of the system can capture or upload the images which are suspicious. The images are sent to the Amazon Web Services (AWS) backend server where the flask server is deployed. These images are processed in the flask server by the designed DCNN models for disease identification. If WCLWD is found, the symptom severity will be determined using CNN models. Simultaneously, if CCI is identified, the images will go through the Mask-R-CNN model to determine the progression level while the number of caterpillars are extracted using the YOLOv5 object detection algorithm. Images will be classified using the CNN models of Mg deficiency and LSD at the same time.</p>
-				  <p>Once the system identifies that the leaves are infected, then the response will be captured by the crowdsourcing platform. The Google Map will be updated with the real time locations (latitude and longitude) of the infected palms. In Addition, the system will automatically send notifications to the farmers and other stakeholders who are at the risk of infection.</p>
+				  <p> 
+            Fig 2 illustrates the overall system architecture for Reefguard integrates Docker containerization and Azure Cloud services 
+            to provide a robust solution for marine ecosystem monitoring. Registered users can capture or upload images of coral reefs 
+            and input seawater quality data directly through the application. These inputs are processed within a Dockerized environment, 
+            where each model—Vision Transformer for disease identification, YOLO-V8 for species recognition, Random Forest for seawater 
+            pollution assessment, and the combination of SVM and Random Forest for life expectancy prediction—runs in isolated containers, 
+            ensuring scalability and efficient resource management.</p>
+				  <p>
+            The application’s backend is hosted on Azure, providing seamless access to cloud storage, real-time data processing, 
+            and secure infrastructure. Once uploaded, images are processed by the Vision Transformer model to identify and classify 
+            coral diseases accurately. Simultaneously, YOLO-V8 identifies multiple coral species in complex reef structures, enhancing the 
+            richness of biodiversity data. For seawater pollution detection, the Random Forest model evaluates key water quality parameters 
+            to provide real-time pollution levels. Finally, the system combines the outputs of SVM and Random Forest models to predict coral life 
+            expectancy, offering insights into potential risks to coral health.
+          </p>
                 </div>
               </div>
           </div>
@@ -721,7 +753,7 @@
                     <div class="card about-us-card">
                       <img src="images/dp-Samadhi-sir.jpg" class="about-us-image cosupervisor" alt="Mr. Samadhi Rathnayake" height="20%">
                       <div class="card-body">
-                        <h5 class="card-title">Mr. Samadhi Rathnayake</h5>
+                        <h6 class="card-title">Mr. Samadhi Rathnayake</h6>
 						
                         <span class="badge badge-secondary">Co-Supervisor</span>
                         <div class="text-group">
@@ -745,7 +777,7 @@
                     <div class="card about-us-card">
                       <img src="images/dp-prabath.png" class="about-us-image cosupervisor" alt="Dr. Prabath Jayasinghe" height="20%">
                       <div class="card-body">
-                        <h5 class="card-title">Dr. Prabath Jayasinghe</h5>
+                        <h6 class="card-title">Dr. Prabath Jayasinghe</h6>
 						
                         <span class="badge badge-secondary">External-Supervisor</span>
                         <div class="text-group">
@@ -771,7 +803,7 @@
                     <div class="card about-us-card">
                       <img src="images/dp-harindu.jpg" class="about-us-image " alt="Harindu Medawatta" height="20%">
                         <div class="card-body">
-                        <h5 class="card-title">Medawatta H.M</h5>
+                        <h6 class="card-title">Medawatta H.M</h6>
 						
                         <span class="badge badge-secondary">Group Leader</span>
                         <div class="text-group">
@@ -796,7 +828,7 @@
                     <div class="card about-us-card">
                       <img src="images/dp-banuka.jpeg" class="about-us-image" alt="Yapa D. G. A. B. S" height="20%">
                         <div class="card-body">
-                        <h5 class="card-title">Yapa D.G.A.B.S</h5>
+                        <h6 class="card-title">Yapa D.G.A.B.S</h6>
 						
                         <span class="badge badge-secondary">Group Member</span>
                         <div class="text-group">
@@ -821,7 +853,7 @@
                     <div class="card about-us-card">
                       <img src="images/dp-Ijan.jpg" class="about-us-image" alt="Panditharathne I.G" height="20%">
                         <div class="card-body">
-                        <h5 class="card-title">Panditharathne I.G</h5>
+                        <h6 class="card-title">Panditharathne I.G</h6>
 						
                         <span class="badge badge-secondary">Group Member</span>
                         <div class="text-group">
@@ -846,7 +878,7 @@
                     <div class="card about-us-card">
                       <img src="images/dp-kushani.jpeg" class="about-us-image" alt="Weerasooriya K.A.M" height="20%">
                         <div class="card-body">
-                        <h5 class="card-title">Weerasooriya K.A.M</h5>
+                        <h6 class="card-title">Weerasooriya K.A.M</h6>
 						
                         <span class="badge badge-secondary">Group Member</span>
                         <div class="text-group">
